@@ -1,0 +1,105 @@
+<!DOCTYPE html>  
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rosea — Головна</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Гарні шрифти для кирилиці -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <div class="board">
+
+      <!-- Верхній банер (замість навігації) -->
+      <header class="b1 banner" role="banner">
+        <h2>Rosea</h2>
+      </header>
+
+      <!-- Ліва панель -->
+      <aside class="b2 home-left" role="complementary">
+        <div class="left-text">
+          Подаруй букет <br>
+          для <span class="highlight">special</span> людини <br>
+          і зроби її день <br>
+          особливим
+        </div>
+      </aside>
+
+      <!-- Головний контент -->
+      <main class="b5" role="main">
+        <div class="love-block">
+          <h1>ТИ + ROSEA = ЛЮБОВ</h1>
+        </div>
+        <div class="gallery-block">
+          <div class="gallery-images">
+            <!-- Фото з оформленням як у каталозі/галереї -->
+            <div class="flower-card">
+              <img src="images/photo1.jpg" alt="Троянди" usemap="#flowermap">
+            </div>
+            <div class="flower-card">
+              <img src="images/photo2.jpg" alt="Півонії">
+            </div>
+            <div class="flower-card">
+              <img src="images/photo3.jpg" alt="Лілії">
+            </div>
+            <div class="flower-card">
+              <img src="images/photo4.jpg" alt="Тюльпани">
+            </div>
+            <div class="flower-card">
+              <img src="images/photo5.jpg" alt="Орхідеї">
+            </div>
+            <div class="flower-card">
+              <img src="images/photo6.jpg" alt="Гортензії">
+            </div>
+            <div class="flower-card">
+              <img src="images/photo7.jpg" alt="Хризантеми">
+            </div>
+            <div class="flower-card">
+              <img src="images/photo8.jpg" alt="Троянди">
+            </div>
+          </div>
+          
+          <!-- Карта зображення -->
+          <map name="flowermap">
+            <area shape="rect" coords="0,0,100,100" alt="Троянди" href="page2.html" title="Перейти до каталогу троянд">
+            <area shape="circle" coords="150,150,50" alt="Спеціальна пропозиція" href="page4.html" title="Спеціальні пропозиції">
+          </map>
+          
+          <p>
+            У Rosea ми віримо, що квіти — це більше, ніж подарунок.  
+            Це спосіб сказати «люблю», «дякую» чи «я пам'ятаю».  
+            Наші букети створені дарувати тепло, ніжність і незабутні моменти.
+          </p>
+        </div>
+      </main>
+
+      <!-- Права панель (тепер тут навігація) -->
+      <div class="b4" role="complementary">
+        <nav role="navigation" aria-label="Головне меню">
+          <ul>
+            <li><a class="active" href="index.html">Головна</a></li>
+            <li><a href="page2.html">Каталог</a></li>
+            <li><a href="page3.html">Про нас</a></li>
+            <li><a href="page4.html">Галерея</a></li>
+            <li><a href="page5.html">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Маленький блок під правою панеллю -->
+      <div class="b6" role="note">
+        Порада дня: додайте кілька квітів у свій дім, настрій зміниться 🌿
+      </div>
+
+      <!-- Футер -->
+      <footer class="b7" role="contentinfo">
+        <h2>Rosea</h2>
+        <h3>Квіти, що говорять замість слів ✨</h3>
+      </footer>
+
+    </div>
+  </div>
+</body>
+</html>
